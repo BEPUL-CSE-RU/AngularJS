@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>angular successfull</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+    <div data-ng-app="" data-ng-init=" FirstName='bepul'; LastName='hossain'">
+        <p>FirstName: <input type="text" data-ng-model="FirstName"></p>
+        <p>LastName: <input type="text"ng-model="LastName"></p>
+        <p>The first name bind is <span ng-bind="FirstName"></span></p>
+        <h3>Full name expression is : {{FirstName+" "+LastName}}</h3>
+        <h1> 4+9={{4+9}}</h1>
+        <span>
+            1+2={{1+2}}
+        </span>
+    </div>
+</body>
+</html>
