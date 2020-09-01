@@ -1,6 +1,35 @@
-# AngularJS
-AngularJS , I was learn it from w3schools
-## 1. Hello.html
-## 2. ng_app_model_bind.html
-Initialize two or more value at a time syntax. 
-**data-ng-init=" FirstName='bepul'; LastName='hossain'"**
+# Uploading-Multiple-File-Images-Using-Multer-In-Node.js-And-Express.js-and-store-path-in-mongoDB-Adn Display Image and Delete it
+
+This code will give you idea how to upload multiple images using multer and display those images by storing name to the mongoDB db.
+
+### Prerequisites
+
+Below noted things you need to install the software
+
+```
+- Node.js
+- NPM
+- MongoDB (In your Local System.)
+```
+
+
+### Installing
+
+Clone or download this repository
+
+```
+npm install
+```
+
+### Run
+
+```
+nodemon server.js
+```
+
+Code is Running on
+
+http://localhost:3000/
+
+
+### Thanks :zap:
